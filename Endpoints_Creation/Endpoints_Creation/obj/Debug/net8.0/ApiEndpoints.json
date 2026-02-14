@@ -1,0 +1,82 @@
+[
+  {
+    "ContainingType": "Endpoints_Creation.Controllers.TagAssociationsController",
+    "Method": "CreateTag",
+    "RelativePath": "api/TagAssociations/CreateTag",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Endpoints_Creation.Models.TagMasterDtos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Endpoints_Creation.Controllers.TagAssociationsController",
+    "Method": "GetTagList",
+    "RelativePath": "api/TagAssociations/get-tag-list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "input",
+        "Type": "Endpoints_Creation.Models.TagAssociationsInputModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Endpoints_Creation.Controllers.TagAssociationsController",
+    "Method": "TagAssociationGenericInsert",
+    "RelativePath": "api/TagAssociations/tag-association",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "input",
+        "Type": "Endpoints_Creation.Models.TagAssociationsInputModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Endpoints_Creation.Controllers.TagAssociationsController",
+    "Method": "TagAssociationGenericDelete",
+    "RelativePath": "api/TagAssociations/tag-association-delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "input",
+        "Type": "Endpoints_Creation.Models.TagAssociationsInputModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Endpoints_Creation.Controllers.TagAssociationsController",
+    "Method": "TagMasterAddRemove",
+    "RelativePath": "api/TagAssociations/tag-master-add-remove",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "input",
+        "Type": "Endpoints_Creation.TagMasterInputModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

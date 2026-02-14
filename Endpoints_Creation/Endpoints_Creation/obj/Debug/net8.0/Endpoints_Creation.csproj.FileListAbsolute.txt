@@ -1,0 +1,8 @@
+C:\Users\kokila.grandhi\source\repos\Endpoints_Creation\Endpoints_Creation\obj\Debug\net8.0\Endpoints_Creation.csproj.AssemblyReference.cache
+C:\Users\kokila.grandhi\source\repos\Endpoints_Creation\Endpoints_Creation\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\kokila.grandhi\source\repos\Endpoints_Creation\Endpoints_Creation\obj\Debug\net8.0\Endpoints_Creation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kokila.grandhi\source\repos\Endpoints_Creation\Endpoints_Creation\obj\Debug\net8.0\Endpoints_Creation.AssemblyInfoInputs.cache
+C:\Users\kokila.grandhi\source\repos\Endpoints_Creation\Endpoints_Creation\obj\Debug\net8.0\Endpoints_Creation.AssemblyInfo.cs
+C:\Users\kokila.grandhi\source\repos\Endpoints_Creation\Endpoints_Creation\obj\Debug\net8.0\Endpoints_Creation.csproj.CoreCompileInputs.cache
+C:\Users\kokila.grandhi\source\repos\Endpoints_Creation\Endpoints_Creation\obj\Debug\net8.0\Endpoints_Creation.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\kokila.grandhi\source\repos\Endpoints_Creation\Endpoints_Creation\obj\Debug\net8.0\Endpoints_Creation.MvcApplicationPartsAssemblyInfo.cache

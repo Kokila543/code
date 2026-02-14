@@ -1,0 +1,224 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Endpoints_Creation",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/TagAssociations/tag-association": {
+      "post": {
+        "tags": [
+          "TagAssociations"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TagAssociationsInputModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TagAssociationsInputModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TagAssociationsInputModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/TagAssociations/CreateTag": {
+      "post": {
+        "tags": [
+          "TagAssociations"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TagMasterDtos"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TagMasterDtos"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TagMasterDtos"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/TagAssociations/get-tag-list": {
+      "post": {
+        "tags": [
+          "TagAssociations"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TagAssociationsInputModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TagAssociationsInputModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TagAssociationsInputModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/TagAssociations/tag-association-delete": {
+      "post": {
+        "tags": [
+          "TagAssociations"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TagAssociationsInputModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TagAssociationsInputModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TagAssociationsInputModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/TagAssociations/tag-master-add-remove": {
+      "post": {
+        "tags": [
+          "TagAssociations"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TagMasterInputModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TagMasterInputModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TagMasterInputModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "TagAssociationsInputModel": {
+        "type": "object",
+        "properties": {
+          "taSource": {
+            "type": "string",
+            "nullable": true
+          },
+          "tagAssociationsRefEntity": {
+            "type": "string",
+            "nullable": true
+          },
+          "tagAssociationsRefEntityKey": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TagMasterDtos": {
+        "type": "object",
+        "properties": {
+          "taSource": {
+            "type": "string",
+            "nullable": true
+          },
+          "tagAssociationsRefEntity": {
+            "type": "string",
+            "nullable": true
+          },
+          "tagAssociationsRefEntityKey": {
+            "type": "integer",
+            "format": "int64"
+          }
+        },
+        "additionalProperties": false
+      },
+      "TagMasterInputModel": {
+        "type": "object",
+        "properties": {
+          "tagName": {
+            "type": "string",
+            "nullable": true
+          },
+          "tagAction": {
+            "type": "string",
+            "nullable": true
+          },
+          "tagId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
